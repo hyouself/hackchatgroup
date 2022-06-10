@@ -10,7 +10,7 @@
 <p><span style="font-size: 24pt; color: #f8cac6;">欢迎来到HACKCHAT专属版本SuStudioWeb</span></p>
 <p><span style="font-size: 24pt; color: #f8cac6;">此版本可能出现一定的BUG，也有可能单独成为一个网站</span></p>
 <hr />
-<p><span style="color: #c2e0f4;">你会看到，这下面也有一个自动回复的机器人，但是这次，她有特殊回复的技能了哦~特殊回复词包括&ldquo;hackchat&rdquo;，&ldquo;terry&rdquo;,&ldquo;terry&rdquo;,&ldquo;tusk&rdquo;，&ldquo;17&rdquo;，&ldquo;Sakura&rdquo;，&ldquo;hacker&rdquo;，&ldquo;zhang&rdquo;，&ldquo;DPG&rdquo;，&ldquo;iis&rdquo;，&ldquo;kilo&rdquo;而且我还在更新！注意大小写！</span><br /><span style="color: #c2e0f4;">当您输入这些回复词的时候，机器人会回复固定的东西哦~即使您随便输入，也会获得彩蛋哦！</span></p>
+<p><span style="color: #c2e0f4;">你会看到，这下面也有一个自动回复的机器人，但是这次，她有特殊回复的技能了哦~特殊回复词包括&ldquo;hackchat&rdquo;，&ldquo;terry&rdquo;,&ldquo;yaya&rdquo;,&ldquo;tusk&rdquo;，&ldquo;17&rdquo;，&ldquo;Sakura&rdquo;，&ldquo;hacker&rdquo;，&ldquo;zhang&rdquo;，&ldquo;DPG&rdquo;，&ldquo;iis&rdquo;，&ldquo;kilo&rdquo;而且我还在更新！注意大小写！</span><br /><span style="color: #c2e0f4;">当您输入这些回复词的时候，机器人会回复固定的东西哦~即使您随便输入，也会获得彩蛋哦！</span></p>
 <hr />
 <!DOCTYPE html>
 <html lang="en">
@@ -99,9 +99,14 @@
             oUl.append(oLi)
             oStatus.style.display = 'block'
 
-              var q = ["tusk", "17", "Sakura", "hacker", "zhang", "DPG","iis","kilo","hackchat","terry","yaya"];
-            var a = ["啊？那个喜欢小说的嘛，据说写的还不错嘛~", "十七十七，偷懒第一！（笑）","呜呜呜Sakura已经好久不来了", "wow你说的是那个hacker嘛，cool！", "据说今天上午zhang又去相亲了（笑）", "《？...：）___》","呦西！就是她没错了，MAYDAY,MAYDAY，队长（自导自演中）","哈！Python小哥","永远滴神！""terry是可爱的男孩几（手动下划线）","YAYA喜欢gulugulu:)"];
-            var empty = ['你知道吗？Su是个UP主！', '你知道吗，也许17是女同?!', '你知道吗？你不知道！', '话说回来，我听说hackchat里面有些灵异事件', '哦吼！今天lounge又没人了！好耶！', '其实Su是个二刺猿啦...', '我是个智能机器人！！！！', '我是GitHuber！！', '万一我以后暴富了呢，你说呢?', '你知道吗，hackchat不是su建的（废话）', 'hacker今天想hack', '你知道吗iis是女生（也许？）', 'OP!!!!', '我是来搞笑的！', '其实我不知道这么多八卦...', '你可以往这个网站里投稿任何东西哦（可以涩涩）', '我是个机器人', 'BOOM!hackchakckhdiehniuadabdha', 'a hacker hack a hack hackerd hack', '？？？', '麻辣！' ]
+            var q = ["吃了吗？", "中午一起去吃吗", "那中午吃什么", "附近这个不是正宗的", "叉烧牛鞭", "再见"];
+            var a = ["还没吃", "行，那12点老地方见", ["麻辣小龙虾", "兰州牛肉拉面", "串串香火锅", "重庆酸辣粉", '武汉热干面', '吴忠手抓羊肉', '牛羊肉泡馍',
+                '猪肉丸糊辣汤', '卤肉饭', '盐焗鸡'
+            ], "还好啦，要不你推荐一个", "可以哦，我天天吃", "？？？"];
+            var empty = ['有话快说有屁快放', '要说啥', '到底想表达什么', '你说话跟个妹纸似的', '你是不是沙雕', '好玩吗', '你非要尬聊么', '说正事', '我去洗澡了', '干哈',
+                '我一口浓痰吐死你', '今天摸鱼了没', 'JS天下第一', '今年胖了10斤', '你身高多少', '哦', '了解了', '假的吧', '呵呵', '哈哈', '你来搞笑的吧',
+                '今天又摸了一天鱼', '又放了一天音乐', '中午去哪里吃饭', '不懂', '啥', '再说一遍', '咦', '裂开', '先来个红包', '？？？', '。。。'
+            ]
 
             var index = q.indexOf(text); //1 ? -1 
 
